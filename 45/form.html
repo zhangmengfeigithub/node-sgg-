@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form test</title>
+</head>
+<body>
+
+//action 指向服务器的一个资源
+//method 默认get， 手动 post
+
+//如果是 GET 那么数据在 查询字符串里面
+//  url查询字符串
+
+//如果是 POST 那么数据在 查询字符串里面
+//  请求体当中
+
+
+<form action="http://127.0.0.1:3000/login" method="POST" >
+    <label for="userName1"> 用户名 </label>
+    <input type="text" name="userName" id="userName1"><br>
+
+    <label for="password1"> 密码 </label>
+    <input type="password" name="password" id="password1"><br>
+
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
